@@ -1,0 +1,7 @@
+new_module.page:
+  route_name: "node.add"
+  title: "Add page"
+  appears_on:
+    - "view.new_view.page_1"
+  route_parameters:
+    node_type: page

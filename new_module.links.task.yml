@@ -1,0 +1,14 @@
+new_module.new:
+  route_name: new_module.new
+  title : controller page
+  base_route: view.new_view.page_1
+  weight: 11
+
+view.new_view.page_1:
+  route_name: view.new_view.page_1
+  title : view page
+  base_route: view.new_view.page_1
+  weight: 10
+
+
+

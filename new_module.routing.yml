@@ -1,0 +1,8 @@
+new_module.new:
+  path : '/new-view/controller'
+  defaults:
+    _controller: '\Drupal\new_module\Controller\CustomController::new'
+    _title: 'controller'
+  requirements:
+    _permission: "access content"
+

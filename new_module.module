@@ -1,0 +1,12 @@
+<?php
+use Drupal\Core\Form\FormStateInterface;
+function new_module_form_alter(&$form,FormStateInterface $form_state, $form_id) {
+
+    // $route= \Drupal::routeMatch()->getRouteName();
+    // print_r($route);
+    // exit;
+}
+function new_module_cloned_node_alter($translatednode, $entity){
+    $a=$translatednode->get("body")->getValue()[0]['value'];
+    $translatednode->set("body","body field changed");
+}
